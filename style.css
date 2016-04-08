@@ -35,7 +35,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
@@ -56,7 +56,7 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	background: black;
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
@@ -71,6 +71,7 @@ div.section {
 #poem {
 	height: 110px;
 	background: white;
+	color: black;
 	text-align: center;
 }
 
